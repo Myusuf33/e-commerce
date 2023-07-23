@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600;700;800&display=swap');
+.footer
+{
+  margin-top: 10%;
+}
+.footer .gridFooter
+{
+  display: flex;
+ justify-content: space-around;
+ font-family: 'Sora', sans-serif;
+}
+.footer .footerCol1 p
+{
+display: block;
+box-sizing: border-box;
+width: 290px;
+color: grey;
+margin-top: 15%;
+}
+.footerCol1 div
+{
+  width: 190px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 5%;
+}
+.footerCol1 div a button
+{
+width: 50px;
+height: 45px;
+border-radius: 5px;
+background-color: rgb(243, 244, 246);
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.footerCol2 h3
+{
+  color: rgb(57, 73, 104);
+  font-weight: 600;
+  font-size: 20px;
+}
+.footerCol2 ul
+{
+  display: block;
+box-sizing: border-box;
+color: grey;
+margin-top: 28%;
+}
+.footerCol2 ul li
+{
+  margin-top: 8%;
+}
+.hr
+{
+  margin-top: 4%;
+  border-color: black;
+}
+.finalFooter
+{
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 17px;
+  color: grey;
+  font-family: 'Sora', sans-serif;
+}
+.copyright
+{
+  display: flex;
+}
+.finalFooter div p span
+{
+  color: black;
+  font-weight: 600;
+  padding-left: 5px;
+}
+.finalFooter div p .code:hover
+{
+text-decoration: underline;
+}
+@media screen and (max-width:1024px) 
+{
+  .footer .gridFooter
+{
+  display: flex;
+flex-direction: column;
+margin-left: 5%;
+}
+.footer .footerCol1 p
+{
+width: 500px;
+margin-top: 3%;
+}
+.footerCol1 div
+{
+  margin-top: 3%;
+}
+.footerCol2
+{
+  margin-top: 5%;
+}
+.footerCol2 ul
+{
+  margin-top: 3%;
+}
+.footerCol2 ul li
+{
+  margin-top: 2%;
+}
+.finalFooter
+{
+  height: 150px;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 5%;
+}
+.finalFooter div
+{
+  margin-top: 1%;
+}
+}
+@media screen and (max-width:585px) 
+{
+  .footer .footerCol1 p
+  {
+  width: 300px;
+  }  
+}
+@media screen and (max-width:340px) 
+{
+  .footer .footerCol1 p
+  {
+  width: 270px;
+  }  
+}

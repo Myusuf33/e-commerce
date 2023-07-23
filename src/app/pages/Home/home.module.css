@@ -1,0 +1,832 @@
+.home
+{
+    display: flex;
+    justify-content: center;
+    font-family: 'Sora', sans-serif;
+}
+.home .contents
+{
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 90%;
+}
+.home .contents .content1
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.home .contents .content1 .col1
+{
+    width: 480px;
+}
+.home .contents .content1 .col1 .saleBtn
+{
+    cursor: text;
+background-color: rgb(219, 234, 254);
+color: rgb(38, 66, 143);
+font-weight: 550;
+height: 40px;
+width: 125px;
+border-radius: 8px;
+}
+.home .contents .content1 .col1 h1
+{
+    margin-top: 5%;
+    color: rgb(33, 33, 33);
+    font-size: 45px;
+    font-weight: bolder;
+}
+.home .contents .content1 .col1 p
+{
+    margin-top: 5%;
+    width: 350px;
+    color: rgb(33, 33, 33);
+}
+.shopingBtn
+{
+    width: 190px;
+    height: 80px;
+    margin-top: 5%;
+    background-color: rgb(33, 33, 33);
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    color: white;
+}
+.shopingBtn:hover
+{
+    background-color: rgb(39, 46, 63);
+}
+.home .contents .content1 .col2
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 600px;
+    height: 600px;
+    border-radius: 50%;
+    background-color: rgb(219, 234, 254);
+}
+.logoPics
+{
+    width: 100%;
+    margin-top: 6%;
+   display: flex;
+   justify-content: space-around;
+}
+.logoPics .logoRow1, .logoPics .logoRow2
+{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+.home .contents .content2 ,.home .contents .content3
+{
+    margin-top: 7%;
+text-align: center;
+width: 100%;
+}
+.content2 .promoHead, .content3 .promoHead
+{
+    color: #0062f5;
+ font-size: 13px;
+ font-weight: 700;
+ margin-top: 3%;
+}
+.content2 h2, .content3 h2
+{
+    margin-top: 5%;
+    color: rgb(33, 33, 33);
+    font-size: 30px;
+    font-weight: 700;
+}
+.promoPics
+{
+    width: 100%;
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.promoPics .col1
+{
+    width: 30%;
+}
+.promoPics .card1
+{
+    background-color: rgb(214, 214, 216);
+    width: 480px;
+    height: 260px;
+    display: flex;
+    justify-content: center;
+}
+.promoPics .card1 div h4
+{
+    font-size: 28px;
+    font-weight: 720;
+    color: rgb(33, 33, 33);
+    width: 150px;
+}
+.promoPics .card1 div
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.promoPics .card1 div p
+{
+    color: rgb(33, 33, 33);
+    font-size: 17px;
+    width: 140px;
+}
+.promoPics .card1 .card1Pic
+{
+    display: flex;
+    align-self: flex-end;
+}
+.subCard1
+{
+    margin-top: 5%;
+    background-color: rgb(33, 33, 33);
+    width: 480px;
+    height: 226px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.subCard1 div
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.subCard1 div h2
+{
+    font-size: 38px;
+    font-weight: bolder;
+    color: white;
+}
+.subCard1 div p
+{
+    margin-top: 3%;
+font-size: 14px;
+}
+.subCard1 div button
+{
+    background-color: rgb(71, 71, 71);
+    font-size: 14px;
+    font-weight: bold;
+    width: 180px;
+    height: 40px;
+    border-radius: 8px;
+    margin-top: 1%;
+}
+.promoPics .col2
+{
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+}
+.card2
+{
+    background-color: rgb(239, 225, 199);
+    width: 350px;
+    height: 504px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.card2 .content, .card3 .content
+{
+    display: flex;
+justify-content: left;
+flex-direction: column;
+    width: 300px;
+    height: 100px;
+    margin-top: 7%;
+}
+.card2 div p, .card3 div p
+{
+    text-align: left;
+    color: rgb(33, 33, 33);
+    font-size: 18px;
+}
+.card2 .prices, .card3 .prices
+{
+    display: flex;
+    flex-direction: row;
+}
+.cardPrice
+{
+    text-decoration: line-through;
+}
+.cardPrice2
+{
+    font-weight: bold;
+    margin-left: 4.3%;
+}
+.card3
+{
+    background-color: rgb(215, 215, 217);
+    width: 350px;
+    height: 504px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.card3 div img
+{
+margin-top: 8%;
+}
+.home .contents .content3
+{
+    color: rgb(33, 33, 33);
+}
+.pics
+{
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.pics div
+{
+    transition: transform 0.3s ease;
+}
+.pics div:hover
+{
+    transform: scale(1.1);
+}
+.pic1 img
+{
+    height: 400px;
+    width: 330px;
+}
+.pic1 .name, .pic2 .name, .pic3 .name
+{
+    text-align: start;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 3.5%;
+}
+.pic1 .price, .pic2 .price, .pic3 .price
+{
+    text-align: start;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 2%;
+}
+.pic2 img, .pic3 img
+{
+    height: 400px;
+    width: 320px;
+}
+.content4
+{
+    width: 100%;
+    margin-top: 5%;
+}
+.content4 .head
+{
+    display: flex;
+    justify-content: end;
+}
+.content4 h2
+{
+    color: rgb(57, 73, 104);
+    font-size: 45px;
+    font-weight: bolder;
+    width: 490px;
+}
+.content4 .content
+{
+    background-color: rgb(248, 250, 253);
+    padding-top: 7%;
+    display: flex;
+    justify-content: space-between;
+}
+.content4 .content .col1, .content4 .content .col2
+{
+    margin-bottom: 3.5%;
+}
+.content4 .content .col1
+{
+    margin-left: 4%;
+    width: 505px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.content4 .content .col1 h1
+{
+    color: rgb(229, 231, 235);
+    font-size: 85px;
+    font-weight: 900;
+    position: absolute;
+    width: 280px;
+}
+.content4 .content .col1 div
+{
+    z-index: 1;
+    position: relative;
+}
+.row1 , .row2
+{
+    display: flex;
+    justify-content: space-between;
+}
+.row1 div ,.row2 div
+{
+    width: 225px;
+    color: rgb(30, 38, 54);
+}
+.row1 div h4, .row2 div h4
+{
+    font-weight: bold;
+}
+.row1 div p, .row2 div p
+{
+    margin-top: 4%;
+    font-weight: 300;
+}
+.content4 .content .col2
+{
+    margin-right: 4%;
+    display: flex;
+    justify-content: space-between;
+}
+.content4 .content .col2 div img
+{
+    width: 350px;
+    height: 370px;
+}
+.content4 .content .col2 div
+{
+    margin-left:5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.content4 .content .col2 .col2Content p
+{
+    width: 230px;
+    font-weight: 300;
+    display: block;
+    box-sizing: border-box;
+}
+.content4 .content .col2 .col2Content button
+{
+    background-color: rgb(33, 33, 33);
+    color: white;
+    width: 123px;
+    height: 60px;
+}
+.content4 .content .col2 .col2Content button:hover
+{
+    background-color: rgb(39, 46, 63);
+}
+.content5
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    width: 100%;
+}
+
+.content5 h1
+{
+    color: rgb(229, 231, 235);
+    font-size: 90px;
+    font-weight: 900;
+    letter-spacing: 1.5px;
+    position: relative;
+}
+.content5 div
+{
+    z-index: 1;
+    position: absolute;
+    width: 480px;
+    text-align: center;
+}
+.content5 div h4
+{
+    font-size: 35px;
+    font-weight: 700;
+    color: rgb(30, 38, 54);
+}
+.content5 div p
+{
+    margin-top: 2%;
+    margin-bottom: 4%;
+}
+.content5 div .email
+{
+    display: flex;
+}
+.content5 div .email input
+{
+    border: 1px solid black;
+    width: 335px;
+    height: 40px;
+    padding-left: 10px;
+    font-size: 14px;
+}
+.content5 div .email button
+{
+    margin-left: 2.5%;
+    background-color: rgb(33, 33, 33);
+    color: white;
+    width: 120px;
+    height: 40px;
+    font-size: 14px;
+    border-radius: 6px;
+}
+@media screen and (max-width:1200px) 
+{
+.promoPics
+{
+    display: flex;
+    flex-direction: column;
+}
+.promoPics .col1
+{
+    width: 100%;
+}
+.promoPics .card1
+{
+    height: 245px;
+    width: 100%;
+    justify-content: space-around;
+}
+.promoPics .card1 div h4
+{
+    width: 100%;
+}
+.promoPics .card1 div p
+{
+   text-align: start;
+    width: 100%;
+}
+.subCard1
+{
+    margin-top: 2.5%;
+    width: 100%;
+    height: 195px;
+}
+.subCard1 p
+{
+    margin-top: 0%;
+}
+.promoPics .col2
+{
+    margin-top: 2.5%;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.card2, .card3
+{
+    width: 45%;
+}
+.card2 .content, .card3 .content
+{
+    width: 100%;   
+    margin-top: 7%;
+    margin-left: 4%;
+}
+.content3 .pics 
+{
+    justify-content: space-between;
+}
+.pic3
+{
+    display: none;
+}
+.content4 .head
+{
+    justify-content: center;
+}
+.content4 h2
+{
+    width: 80%;
+}
+.content4 .content
+{
+    flex-direction: column;
+}
+.content4 .content .col1
+{
+    width: 70%;
+}
+.content4 .content .col1 h1
+{
+    width: 70%;
+}
+.content4 .content .col1 .row2
+{
+    margin-top: 5%;
+}
+.content4 .content .col2
+{
+    display: flex;
+    justify-content: left;
+    width: 100%;
+    margin-left: 4%;
+}
+.content4 .content .col2 div
+{
+    margin-left:0%;
+}
+.content4 .content .col2 .col2Pic
+{
+    width: 30%;
+}
+
+.content4 .content .col2 .col2Content
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+    width: 45%;
+}
+.content4 .content .col2 div img
+{
+    width: 340px;
+    height: 100%;
+}
+.content4 .content .col2 .col2Content
+{
+    margin-left: 3%;
+}
+.content4 .content .col2 .col2Content p
+{
+    width: 100%;
+}
+.content4 .content .col2 .col2Content button
+{
+    margin-top: 3%;
+    width: 280px;
+    height: 43px;
+}
+}
+@media screen and (max-width:1024px) 
+{
+.home .contents .content1 .col1
+{
+    width: 85%;
+}
+.home .contents .content1 .col1 p
+{
+  width: 80%;
+}
+.shopingBtn
+{
+    width: 50%;
+    height: 40px;
+    font-size: 17px;
+}
+.home .contents .content1 .col2
+{
+    display: none;
+}
+}
+@media screen and (max-width:800px) 
+{
+.promoPics .col2
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+.card2, .card3
+{
+    width: 100%;
+}
+.card3
+{
+    margin-top: 2.5%;
+}
+.content3 .pics 
+{
+    justify-content: center;
+}
+.pic2
+{
+    display: none;
+}
+}
+@media screen and (max-width:760px)
+{
+.content4 .content .col1, .content4 .content .col2
+{
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+}
+.content4 .content .col1 .row1 , .content4 .content .col1 .row2
+{
+    align-items: center;
+    flex-direction: column;
+}
+.content4 .content .col1 h1
+{
+    width: 80%;
+    font-size: 70px;
+    font-weight: 700;
+}
+.row1 div ,.row2 div
+{
+    width: 92%;
+}
+.row1 div h4, .row2 div h4
+{
+    font-size: 18px;
+}
+.row1 .row1Head2, .row2 .row2Head2
+{
+    margin-top: 5%;
+}
+.row1 div p, .row2 div p
+{
+    font-size: 16px;
+    margin-top: 1%;
+}
+
+.content4 .content .col2
+{
+    align-items: center;
+    flex-direction: column;
+    margin-left: 0%;
+}
+.content4 .content .col2 .col2Pic
+{
+    align-items: center;
+    width: 100%;
+}
+.content4 .content .col2 .col2Pic img
+{
+    height: 400px;
+    width: 370px;
+}
+.content4 .content .col2 .col2Content
+{
+    align-items: start;
+    margin-top: 5%;
+    width: 80%;
+    margin-left: 0%;
+}
+.content4 .content .col2 .col2Content p
+{
+    width: 100%;
+    text-align: start;
+}
+.content4 .content .col2 .col2Content button
+{
+    margin-top: 8%;
+    width: 180px;
+    height: 40px;
+}
+}
+@media screen and (max-width:640px)
+{
+.home .contents .content1 .col1
+{
+    width: 100%;
+}
+.shopingBtn
+{
+    width: 200px;
+    font-size: 14px;
+}
+.content5
+{
+    margin-bottom: 18%;
+}
+.content5 h1
+{
+    width: 100%;
+    font-size: 75px;
+    font-weight: 800;
+    text-align: center;
+}
+.content5 div h4
+{
+    font-size: 30px;
+}
+.content5 div .email
+{
+    align-items: center;
+    flex-direction: column;
+}
+.content5 div .email input
+{
+   
+    width: 365px;
+}
+.content5 div .email button
+{
+    margin-left: 0%;
+    margin-top: 3%;
+}
+} 
+@media screen and (max-width:500px)
+{
+.logoPics
+{
+   flex-direction: column;
+}
+.logoPics .logoRow1, .logoPics .logoRow2
+{
+    width: 100%;
+    justify-content: space-around;
+}
+.logoPics .logoRow2
+{
+    margin-top: 3.5%;
+}
+.promoPics .card1
+{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.card1 .content
+{
+    margin-top: 5%;
+}
+.card2
+{
+    height: 450px;
+}
+.card3
+{
+    height: 467px;
+}
+.pic1 img
+{
+    height: 370px;
+    width: 350px;
+}
+.content5
+{
+    margin-bottom: 18%;
+}
+.content5 .content
+{
+    width: 90%;
+}
+.content5 h1
+{
+    font-size: 65px;
+    font-weight: 700;
+}
+.content5 div h4
+{
+    font-size: 30px;
+}
+.content5 div .email
+{
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+}
+.content5 div .email input
+{
+    width: 365px;
+}
+.content5 div .email button
+{
+    margin-left: 0%;
+    margin-top: 3%;
+}
+}
+@media screen and (max-width:465px)
+{
+.content5
+{
+    margin-bottom: 45%;
+}
+.content5 h1
+{
+    font-size: 55px;
+    font-weight: 700;
+}
+.content5 div .email input
+{  
+    width: 330px;
+}
+}
